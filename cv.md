@@ -1,4 +1,4 @@
-#**Antonina Maksimova**
+# **Antonina Maksimova**
 
 
 **Location:** Belarus, Minsk
@@ -7,11 +7,11 @@
 **github:** antoninamaximova
 **telegram:** amaxteam
 
-##SUMMARY
+## SUMMARY
 
 Web Developer with 3+ years of freelance experience in designing and developing user friendly unterfaces. 
 
-##Tecnical Skills
+## Tecnical Skills
 * **Technologies and Frameworks:** HTML/CSS/JS, React.js, PHP.
 * **Tools:** Webpack
 * **CMS:** Wordpress
@@ -22,8 +22,9 @@ Web Developer with 3+ years of freelance experience in designing and developing 
 
 
 
-##CODE REVIEW
-```let easy = document.getElementById('easy');
+## CODE REVIEW
+```
+let easy = document.getElementById('easy');
 let medium = document.getElementById('medium');
 let difficult = document.getElementById('difficult');
 let button = document.getElementById ('button');
@@ -89,12 +90,13 @@ button.addEventListener ('click', () => {
 			}
 		});
 	})
-})```
+})
+```
 
-##WORK EXPERIENCE
+## WORK EXPERIENCE
 August, 2018 untill now. Freelance practice.
 
-###Best projects and portfolio:
+### Best projects and portfolio:
 https://klubnichniyhutorok.by/
 https://asisukraine.org/
 http://nautilus-taxi.pro/ (site and calculator)
@@ -103,7 +105,7 @@ https://antoninamaximova.github.io/reactAppTodo/
 https://antoninamaximova.github.io/CardGameJS/
 https://antoninamaximova.github.io/turictic/
 
-##EDUCATION
+## EDUCATION
 
 **Name of the Education Establishment:** BSUIR
 **Faculty/College:** Computer Systems and Networks
@@ -111,11 +113,11 @@ https://antoninamaximova.github.io/turictic/
 **Specialty:** Information Technologies Software Support (Software Еngineer)
 
 
-##Trainings/Courses:
+## Trainings/Courses:
 WebHeroSchool(Web Developer React)
 
 
-##LANGUAGES
+## LANGUAGES
 
 English - B1(Intermediate);
 German - A1;
