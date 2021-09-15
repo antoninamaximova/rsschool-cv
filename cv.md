@@ -1,11 +1,11 @@
 # **Antonina Maksimova**
 
 
-    **Location:** Belarus, Minsk
-    **tel.:** +375259240683
-    **email:** tonkastar@mail.ru
-    **github:** antoninamaximova
-    **telegram:** amaxteam
+**Location:** Belarus, Minsk    
+**tel.:** +375259240683     
+**email:** tonkastar@mail.ru    
+**github:** antoninamaximova    
+**telegram:** amaxteam      
 
 ## SUMMARY
 
@@ -97,20 +97,20 @@ button.addEventListener ('click', () => {
 August, 2018 untill now. Freelance practice.
 
 ### Best projects and portfolio:
-    [https://klubnichniyhutorok.by/]
-    [https://asisukraine.org/]
-    [http://nautilus-taxi.pro/] (site and calculator)
-    [https://antoninamaximova.github.io/AxionShop/]
-    [https://antoninamaximova.github.io/reactAppTodo/]
-    [https://antoninamaximova.github.io/CardGameJS/]
-    [https://antoninamaximova.github.io/turictic/]
+[https://klubnichniyhutorok.by/]    
+[https://asisukraine.org/]      
+[http://nautilus-taxi.pro/] (site and calculator)   
+[https://antoninamaximova.github.io/AxionShop/]     
+[https://antoninamaximova.github.io/reactAppTodo/]      
+[https://antoninamaximova.github.io/CardGameJS/]    
+[https://antoninamaximova.github.io/turictic/]  
 
 ## EDUCATION
 
-**Name of the Education Establishment:** BSUIR
-**Faculty/College:** Computer Systems and Networks
-**Degree (Diploma):** Uncompleted higher education
-**Specialty:** Information Technologies Software Support (Software Еngineer)
+**Name of the Education Establishment:** BSUIR      
+**Faculty/College:** Computer Systems and Networks      
+**Degree (Diploma):** Uncompleted higher education      
+**Specialty:** Information Technologies Software Support (Software Еngineer)    
 
 
 ## Trainings/Courses:
@@ -119,6 +119,6 @@ WebHeroSchool(Web Developer React)
 
 ## LANGUAGES
 
-    English - B1(Intermediate);
-    German - A1;
-    Russian - Native.
+    English - B1(Intermediate);     
+    German - A1;    
+    Russian - Native.   
