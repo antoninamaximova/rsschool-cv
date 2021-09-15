@@ -111,7 +111,7 @@ https://antoninamaximova.github.io/turictic/
 **Specialty:** Information Technologies Software Support (Software Еngineer)
 
 
-Trainings/Courses:
+##Trainings/Courses:
 WebHeroSchool(Web Developer React)
 
 
