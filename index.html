@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="" alt="cv-photo" width="300" height="300">
+            <h1>Antonina Maksimova</h1>
+            <nav class="contacts">
+                <p>Location: Belarus, Minsk</p>
+                <p>tel.: <a href="tel:+375259240683" target="_blank">+375259240683</a></p>
+                <p>email: <a href="mailto:tonkastar@mail.ru" target="_blank">tonkastar@mail.ru</a></p>
+                <div class="flex">
+                    <a href="https://github.com/antoninamaximova" target="_blank"><img src="" alt="github" width="15"
+                            height="15"></a>
+                    <a href="https://t.me/amaxteam" target="_blank"><img src="" alt="telegram" width="15"
+                            height="15"></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h2>Summary</h2>
+            <p>Web Developer with 3+ years of freelance experience in designing and developing user friendly unterfaces.
+            </p>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><span>Technologies and Frameworks:</span>HTML/CSS/JS, React.js, PHP</li>
+                <li><span>Tools:</span>Webpack</li>
+                <li><span>CMS:</span>Wordpress</li>
+                <li><span>Databases:</span>MySQL</li>
+                <li><span>Version Control Systems:</span>Git</li>
+                <li><span>Integrated Development Environment:</span>Visual Studio code</li>
+                <li><span>Methodologies:</span>Scrum, Agile</li>
+            </ul>
+            <h2>CODE REVIEW</h2>
+            <p>
+                <code>
+                        let easy = document.getElementById('easy');
+                        let medium = document.getElementById('medium');
+                        let difficult = document.getElementById('difficult');
+                        let button = document.getElementById ('button');
+                        let section = document.getElementById('container');
+                        
+                        button.addEventListener ('click', () => {
+                            document.querySelector('.container').classList.toggle('disable');
+                            let start = document.querySelector('input[type="radio"]:checked');
+                        
+                            section.insertAdjacentHTML('afterbegin','<div><div><div></div><div></div></div></div>');
+                            let cardholder = section.firstChild;
+                            cardholder.classList.add("cardholder");
+                            let playingCard = document.querySelector('.cardholder');
+                            let card = playingCard.firstChild;
+                            card.classList.add('card');
+                            card.firstChild.classList.add("card__font");
+                            card.lastChild.classList.add("card__back");
+                            let back = document.querySelector('.card__back');
+                            let clone = playingCard.cloneNode(true);
+                            switch(true) {
+                                case start == document.getElementById('medium'):
+                                section.classList.remove('container-easy', 'disable');
+                                section.classList.add('container-medium');
+                                for (i = 0; i < 5; i++) {
+                                    let clone = playingCard.cloneNode(true);
+                                    section.appendChild(clone);
+                                }
+                                break;
+                                case start == document.getElementById('difficult'):
+                                section.classList.remove('container-easy', 'disable');
+                                section.classList.add('container-difficult');
+                                for (i = 0; i < 9; i++) {
+                                    let clone = playingCard.cloneNode(true);
+                                    section.appendChild(clone);
+                                }
+                                break;
+                                default:
+                                section.classList.remove('disable');
+                                for (i = 0; i < 2; i++) {
+                                    let clone = playingCard.cloneNode(true);
+                                    section.appendChild(clone);
+                                }
+                            }
+                        
+                            let cardsMassive = Array.from(section.children);
+                            let randomCard = cardsMassive[Math.floor(Math.random()*cardsMassive.length)];
+                            randomCard.querySelector('.card__back').classList.add('card__back_win');
+                            randomCard.querySelector('.card__back').classList.remove('card__back');
+                        
+                            let cardItem = document.querySelectorAll('.card');
+                        
+                            cardItem.forEach(function(elem, i){
+                                elem.addEventListener('click', () => {
+                                    if (elem != document.querySelector('.card__change')) {
+                                        elem.classList.add('card__change');
+                                    } else {
+                                        document.querySelector('.container').classList.toggle('disable');
+                                        section.classList.add('container-easy', 'disable');
+                                        section.classList.remove('container-medium', 'container-difficult');
+                                        for (i = cardsMassive.length; i > 0; i--) {
+                                        section.removeChild(document.querySelector('.cardholder'));}
+                                        elem.classList.remove('card__change');
+                                    }
+                                });
+                            })
+                        })
+                    </code>
+            </p>
+            <h2>WORK EXPERIENCE</h2>
+            <p>August, 2018 until now. Freelance practice.</p>
+            <h3>Best projects and portfolio:</h3>
+            <ul>
+                <li><a href="https://klubnichniyhutorok.by/">https://klubnichniyhutorok.by/</a></li>
+                <li><a href="https://asisukraine.org/">https://asisukraine.org/</a></li>
+                <li><a href="http://nautilus-taxi.pro/">http://nautilus-taxi.pro/</a>(site and calculator) </li>
+                <li><a
+                        href="https://antoninamaximova.github.io/AxionShop/">https://antoninamaximova.github.io/AxionShop/</a>
+                </li>
+                <li><a
+                        href="https://antoninamaximova.github.io/reactAppTodo/">https://antoninamaximova.github.io/reactAppTodo/</a>
+                </li>
+                <li><a
+                        href="https://antoninamaximova.github.io/CardGameJS/">https://antoninamaximova.github.io/CardGameJS/</a>
+                </li>
+                <li><a
+                        href="https://antoninamaximova.github.io/turictic/">https://antoninamaximova.github.io/turictic/</a>
+                </li>
+            </ul>
+            <h2>EDUCATION</h2>
+            <ul>
+                <li><span>Name of the Education Establishment:</span>BSUIR</li>
+                <li><span>Faculty/College:</span>Computer Systems and Networks</li>
+                <li><span>Degree (Diploma):</span>Uncompleted higher education</li>
+                <li><span>Specialty:</span>Information Technologies Software Support (Software Еngineer)</li>
+            </ul>
+            <h2>Trainings/Courses:</h2>
+            <p>WebHeroSchool(Web Developer React)</p>
+            <h2>LANGUAGES</h2>
+            <p>English - B1(Intermediate)</p>
+            <p>German - A1</p>
+            <p>Russian - Native</p>
+        </main>
+    </div>
+</body>
+
+</html>

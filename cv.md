@@ -9,9 +9,9 @@
 
 ## SUMMARY
 
-Web Developer with 3+ years of freelance experience in designing and developing user friendly unterfaces. 
+Web Developer with 3+ years of freelance experience in designing and developing user friendly interfaces. 
 
-## Tecnical Skills
+## Technical Skills
 * **Technologies and Frameworks:** HTML/CSS/JS, React.js, PHP.
 * **Tools:** Webpack
 * **CMS:** Wordpress
@@ -94,7 +94,7 @@ button.addEventListener ('click', () => {
 ```
 
 ## WORK EXPERIENCE
-August, 2018 untill now. Freelance practice.
+August, 2018 until now. Freelance practice.
 
 ### Best projects and portfolio:
 [https://klubnichniyhutorok.by/]    
