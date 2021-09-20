@@ -56,7 +56,7 @@
                         case start == document.getElementById('medium'): 
                         section.classList.remove('container-easy', 'disable');
                         section.classList.add('container-medium');
-                        for (i = 0; i < 5; i++) {
+                        for (i = 0; i &lt; 5; i++) {
                         let clone = playingCard.cloneNode(true);
                         section.appendChild(clone);
                         }
@@ -64,14 +64,14 @@
                         case start == document.getElementById('difficult'):
                         section.classList.remove('container-easy', 'disable');
                         section.classList.add('container-difficult');
-                        for (i = 0; i < 9; i++) {
+                        for (i = 0; i &lt; 9; i++) {
                             let clone = playingCard.cloneNode(true);
                             section.appendChild(clone);
                         }
                         break;
                         default:
                         section.classList.remove('disable');
-                        for (i = 0; i < 2; i++) {
+                        for (i = 0; i &lt; 2; i++) {
                         let clone = playingCard.cloneNode(true);
                         section.appendChild(clone);
                         }
